@@ -9,7 +9,7 @@ var crypto = require('crypto');
 //
 //  Secret token configured while webhook integration
 //
-var SECRET_TOKEN = "";
+var SECRET_TOKEN = process.env.WEBHOOK_INTEGRATION_SECRET;
 
 var app = express();
 
