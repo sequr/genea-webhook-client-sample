@@ -1,0 +1,18 @@
+{
+  "name": "sequr-webhook-sample-client",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": "6.11.1"
+  },
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "cookie-parser": "1.4.3",
+    "debug": "2.6.9",
+    "express": "4.15.5",
+    "morgan": "1.9.0"
+  }
+}
